@@ -1,0 +1,131 @@
+body{
+text-align: center;
+overflow-x: hidden;
+}
+
+.name{
+font-family: "Raleway";
+font-size:42pt;
+font-weight: lighter;
+font-variant: small-caps;
+color:black;
+line-height: 20px;
+/*margin-top: 20%; */
+  text-align: center;
+margin-bottom: -40px;
+}
+
+.project{
+  float:left;
+  margin-left:340px;
+}
+
+.exersize{
+  float:left;
+     padding-left:35px;
+}
+
+.studio{
+  float:left;
+  padding-left:35px;
+}
+
+.project p{
+  font-family:"Raleway";
+font-variant: small-caps;
+   font-size: 35pt;
+   font-weight: 500;
+   margin-bottom: -15px;
+   padding-top: 30px;
+
+}
+
+.exersize p{
+  font-family:"Raleway";
+  font-variant: small-caps;
+   font-size: 35pt;
+   font-weight: 500;
+   padding-left: 25px;
+   padding-top: 30px;
+   margin-bottom: -15px;
+
+
+}
+
+.studio p{
+  /*font-family:"Blessed Day";
+font-variant:normal;
+   font-size: 45pt;
+   font-weight: bold;
+
+   letter-spacing: 3pt;
+   padding-left: 15px;
+   margin-bottom: -15px; */
+
+   font-family:"Raleway";
+    font-size: 35pt;
+    font-variant: small-caps;
+    font-weight: 500;
+    padding-left: 25px;
+    padding-top: 30px;
+    margin-bottom: -15px;
+
+
+}
+
+
+.project ul li{
+
+    list-style-type: square;
+     font-size: 20pt;
+  font-family:"Raleway";
+  color:black;
+  list-style-position: inside;
+}
+
+.exersize ul li{
+
+    list-style-type: square;
+     font-size: 20pt;
+  font-family:"Raleway";
+  color:black;
+    list-style-position: inside;
+}
+
+.studio ul li{
+
+    list-style-type: square;
+     font-size: 20pt;
+     font-family:"Raleway";
+     color:black;
+    list-style-position: inside;
+}
+
+
+a:hover{
+  color: #00BFFF;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+footer{
+ text-align: center;
+display: block;
+   margin-left: 43%;
+   clear:both;
+
+ }
+
+footer p{
+
+  font-family: "Raleway";
+  font-weight: 200;
+  font-size:42pt;
+  color:black;
+ text-align: center;
+   float: left;
+   padding-right: 15px;
+
+}
