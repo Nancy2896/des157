@@ -17,7 +17,7 @@ margin-bottom: -40px;
 
 .project{
   float:left;
-  margin-left:340px;
+  margin-left:250px;
 }
 
 .exersize{
@@ -108,6 +108,21 @@ a:hover{
 
 a:link {
     text-decoration: none;
+}
+
+.brainstorm li, .brainstorm p{
+  list-style-type: none;
+  display: block;
+
+font-family: "Times New Roman";
+font-size: 18pt;
+
+}
+
+.brainstorm li img  {
+
+width:400px;
+
 }
 
 footer{
