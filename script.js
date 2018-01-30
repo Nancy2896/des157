@@ -41,7 +41,7 @@ footer.style.marginTop =("auto")
 
 results.classList.remove("hide");
 myMsg.innerHTML =
-  "It was Thanksgiving, and the scent of roasted " + noun + " spread through my house. 'Maggie" + ", its time to " + verb + "' called my wife! I couldn't wait to get my " + body + " on that "+ ad + " Thanksgiving meal. My family sat around the dinning-room " + noun1 + ". The table was laid out with every kind of smelly sock" + " imaginable. There was a basket of hot buttered " + noun3 + " and glasses of sparkling " + liquid + ". The " + adi + " turkey sat, steaming next to a " + noun4 + " gravy. A bowl of ruby-red " + animal + " sauce, sweet-" +
+  "It was Thanksgiving, and the scent of roasted " + noun + " spread through my house. 'Maggie" + ", its time to " + verb + "' called my mother! I couldn't wait to get my " + body + " on that "+ ad + " Thanksgiving meal. My family sat around the dinning-room " + noun1 + ". The table was laid out with every kind of smelly sock" + " imaginable. There was a basket of hot buttered " + noun3 + " and glasses of sparkling " + liquid + ". The " + adi + " turkey sat, steaming next to a " + noun4 + " gravy. A bowl of ruby-red " + animal + " sauce, sweet-" +
   noun5 + " casserole, and dish of mashed " + noun6 + " tempted my taste buds. But the dish I looked forward to most was my wife " + FemaleInroom + "'s famous " + reptile + " pie. Thankgiving is my favorite holiday " + parts + " down.";
 
    return false;
