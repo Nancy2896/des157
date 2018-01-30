@@ -1,5 +1,6 @@
 var results= document.getElementById("results");
 var myMsg= document.getElementById("myMsg");
+var footer= document.getElementById("footer");
 
 document.f.onsubmit= processForm;
 document.f.onreset = resetForm;
@@ -33,7 +34,7 @@ function processForm(){
    myMsg.style.fontFamily = "Indie Flower";
    myMsg.style.padding = "30px";
   myMsg.style.marginTop = "20px";
-
+footer.style.marginTop =("auto")
 
 
 
