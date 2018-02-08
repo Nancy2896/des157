@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+
+* {
+background-repeat: no-repeat;
+}
+
+
+article{
+  height: 530px;
+   width: 300px;
+   position: absolute;
+   top: 90px;
+   left: 600px;
+    background-image:url("cupboard.png");
+
+}
+
+#background{
+
+}
+
+
+@media only screen and (min-width: 768px) {
+  body{
+    background-image:url("wallpaper1.png");
+    background-size: cover;
+    width:100%;
+    position: relative;
+  }
+
+  section img{
+    position: absolute;
+     display: block;
+  }
+
+  #background{
+     display: block;
+    position: absolute;
+    top: -20px;
+    left:200px;
+
+
+  }
+
+  #ring{
+    top: 330px;
+    left: 340px;
+
+
+  opacity: 1;
+
+  }
+
+  #watch{
+
+    top: 280px;
+    left:350px;
+  opacity: .8;
+  }
+
+  #phone{
+    top: 270px;
+  left: 430px;
+    opacity: .8;
+  }
+
+
+  h3{
+    text-align: center !important;
+    font-family: 'Dancing Sript', cursive;
+    position: absolute;
+    top: 60px;
+    left: 45px;
+    font-size: 20px;
+  font-weight: bold;
+
+
+  }
+  p{
+  position: absolute;
+   top: 130px;
+   left: 40px;
+   width: 120px;
+   text-align: center;
+   font-family: 'raleway';
+     font-size: 15px;
+
+  }
+
+  article{
+
+
+  height: 500px;
+  /* width: 433px;*/
+   position: absolute;
+   top: 130px;
+   left: 660px;
+   background-size: contain;
+    background-image:url("cupboard.png");
+
+
+  }
+
+  .show {
+    display: inline-block;
+  }
+
+  .hide {
+    display: none !important;
+  }
+
+
+  #foo a {
+
+    color: white;
+    padding-left: 10px;
+    font-family: 'raleway';
+    font-size: 25px;
+font-weight: bold;
+
+    text-decoration: none;
+  }
+
+  #foo a:hover {
+    color: black;
+  }
+
+
+
+
+
+
+
+
+}
