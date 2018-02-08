@@ -70,15 +70,15 @@ var apa = document.getElementById('ph');
 
 phone.addEventListener("mouseover", growp);
 function growp() {
-  phone.style.width = "170px";
-  phone.style.height = "200px";
+  phone.style.width = "150px";
+  phone.style.height = "190px";
 
 }
 
 phone.addEventListener("mouseout", shrinkp);
 function shrinkp() {
-phone.style.width = "145px";
-phone.style.height = "90px";
+phone.style.width = "135px";
+phone.style.height = "80px";
 }
 
 phone.addEventListener("click", getDressedp);
