@@ -1,4 +1,4 @@
-
+/* declaring variable */
 
     var watch = document.getElementById('watch');
     var awa = document.getElementById('wa');
@@ -13,6 +13,7 @@
     var phone = document.getElementById('phone');
 var apa = document.getElementById('ph');
 
+/* hover and click function for ring */
 
       ring.addEventListener("mouseover", mose);
       function mose() {
@@ -39,6 +40,7 @@ var apa = document.getElementById('ph');
     }
 /*------------------------------------------------------------------*/
 
+/* hover and click function for watch */
 
     watch.addEventListener("mouseover", growc);
     function growc() {
@@ -68,6 +70,8 @@ var apa = document.getElementById('ph');
 /*----------------------------------------------------------------------------------------------------------*/
 
 
+/* hover and click function for phone */
+
 phone.addEventListener("mouseover", growp);
 function growp() {
   phone.style.width = "150px";
@@ -87,9 +91,7 @@ function getDressedp() {
   var show = document.getElementsByClassName('show');
   for (i = 0; i < show.length; i += 1) {
     show[i].className = "hide";
-  /*  awa.innerHTML =
-      "I started wearing a watch last quarter. This watch is special to me because this was one of the items I boaught from my first pay cheques.";
-*/   }
+     }
 
 apa.className = "show";
 }
@@ -101,6 +103,7 @@ apa.className = "show";
 
 
 
+/* touch function for ring */
 
   ring.addEventListener(
  "touchstart",
@@ -121,7 +124,7 @@ ring.addEventListener(
 
 /*------------------------------------------ */
 
-
+/* touch function for watch */
 
 
 watch.addEventListener(
@@ -143,6 +146,7 @@ watch.addEventListener(
 
 /*------------------------------------------------------------------*/
 
+/* touch function for phone */
 
 phone.addEventListener(
  "touchstart",
