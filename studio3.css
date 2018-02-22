@@ -101,7 +101,7 @@ display: inline-block;
 color:white;
 position: absolute;
 left:40px;
-  top:30px;
+  top:10px;
 font-family: 'Raleway';
 }
 
@@ -113,6 +113,7 @@ display: inline-block;
 color:white;
 position: absolute;
 left:160px;
+   top:10px;
 font-family: 'Raleway';
 }
 
