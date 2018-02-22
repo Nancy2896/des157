@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title> Studio 4 </title>
+<meta charset="UTF-8">
+ <link href="studio3.css" rel="stylesheet" />
+</head>
+
+
+<body>
+<div>
+<h1> Hair Dress Up </h1>
+
+<p>
+  <a href=""> HTML </a>
+  <a href=""> CSS </a>
+</p>
+
+</div>
+
+
+<div>
+<p> Drag and Drop the Hair </p>
+<p> Want to change it, drag the hair to the bin </p>
+</div>
+
+
+  <div id="leftBox">
+
+
+  <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+    <img id="hair1" src="hair_1.png" draggable="true" ondragstart="drag(event)" alt="hair1" />
+</div>
+      <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)">
+    <img id="hair2" src="hair_2.png" draggable="true" ondragstart="drag(event)" alt="hair2"/>
+</div>
+      <div id="div3" ondrop="drop(event)" ondragover="allowDrop(event)">
+    <img id="hair3" src="hair_3.png"  draggable="true" ondragstart="drag(event)" alt="hair3" />
+</div>
+</div>
+
+<div id="rightBox" ondrop="drop(event)" ondragover="allowDrop(event)" >
+  <img id= "hair" src="hair_model1.png" alt="hair"/>
+</div>
+
+<div id="trashBox" ondrop="drop(event)" ondragover="allowDrop(event)" ondragend="show(event)">
+     <img src="trash.png" alt="trash" > </div>
+
+<footer>
+
+
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.16/p5.js"></script>
+<script src='studio3.js'> </script>
+
+
+</body>
+
+</html>
