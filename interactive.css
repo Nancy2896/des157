@@ -105,11 +105,22 @@ font-size: 20pt;
 text-align: center;
 float:left;
 background-color: grey;
-
+margin-bottom: auto;
 }
 
 footer{
 	background-color: grey;
 	position: absolute;
-	bottom: 1000px;
+	bottom: -40px;
+	text-align: center;
+	padding: 10px;
+	width: 100%;
+	font-size: 20pt;
+	padding:20px;
+	margin-top: 20px;
+	text-decoration: none;
+	height:40px;
+}
+footer a{
+	text-decoration: none;
 }
