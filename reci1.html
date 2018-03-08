@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Interactive Wireframe</title>
+
+
+
+	</head>
+
+	<body>
+
+		<style>
+		body {
+			margin: auto;
+			font-family: 'Raleway';
+			color: #000000;
+		text-align: center;
+			}
+
+		h1{
+			text-align: center;
+			font-family: 'Raleway';
+			font-variant: small-caps;
+			color: black;
+			font-size: 35pt;
+			padding: 10px;
+
+
+		}
+
+			nav{
+
+				background-color: #C0C0C0;
+
+				height: 100%;
+		margin-top: -50px;
+			}
+
+			nav li {
+				display: inline-block;
+				font-size: 24pt;
+				margin-left:20px;
+				margin-top: 10px;
+
+		font-family: 'Raleway';
+
+
+			}
+
+			nav a{
+
+				text-decoration: none;
+					text-align: center !important;
+					color:white;
+			padding-top: 20px;
+			}
+
+
+		nav a:hover{
+			color: white;
+			text-align: center;
+			background-color: orange;
+			padding: 11px;
+
+		}
+
+		.a{
+				background-image: url('roulade.jpg');
+				background-size: contain;
+				width:200px;
+				height: 200px;
+				margin-left: 190px;
+				margin-top:20px;
+				text-align: center;
+				float:left;
+				color:white;
+				}
+
+		.a a{
+			visibility: hidden;
+		}
+				.a:hover{
+					opacity: .7;
+
+				}
+				.a:hover a{
+					visibility: visible;
+					display: inline-block;
+					background-color: darkgrey;
+					width:200px;
+					height: 20px;
+					font-size: 16pt;
+					padding: 5px 0px 10px 0px;
+					margin-top: 90px;
+					text-decoration: none;
+					color: white;
+				}
+
+
+		.b{
+				background-image: url('tacos.jpg');
+				background-size: contain;
+				width:200px;
+				height: 200px;
+				margin-left: 190px;
+				margin-top:20px;
+				text-align: center;
+				float:left;
+				color:white;
+				}
+
+
+				.b a{
+					visibility: hidden;
+				}
+						.b:hover{
+							opacity: .7;
+
+						}
+						.b:hover a{
+							visibility: visible;
+							display: inline-block;
+							background-color: darkgrey;
+							width:200px;
+							height: 20px;
+							font-size: 16pt;
+							padding: 5px 0px 10px 0px;
+							margin-top: 90px;
+							text-decoration: none;
+							color: white;
+						}
+
+		.c{
+				background-image: url('ravioli.jpg');
+				background-size: contain;
+				width:200px;
+				height: 200px;
+				margin-left: 190px;
+				margin-top:20px;
+				text-align: center;
+				float:left;
+				color:white;
+			}
+
+			.c a{
+				visibility: hidden;
+			}
+					.c:hover{
+						opacity: .7;
+
+					}
+					.c:hover a{
+						visibility: visible;
+						display: inline-block;
+						background-color: darkgrey;
+						width:200px;
+						height: 20px;
+						font-size: 16pt;
+						padding: 5px 0px 10px 0px;
+						margin-top: 90px;
+						text-decoration: none;
+						color: white;
+					}
+
+		.d{
+				background-image: url('butterchicken.jpg');
+				background-size: cover;
+				background-repeat: no-repeat;
+				width:200px;
+				height: 200px;
+				margin-left: 190px;
+				margin-top:20px;
+				text-align: center;
+				float:left;
+				color:white;
+				}
+
+
+				.d a{
+					visibility: hidden;
+				}
+						.d:hover{
+							opacity: .7;
+
+						}
+						.d:hover a{
+							visibility: visible;
+							display: inline-block;
+							background-color: darkgrey;
+							width:200px;
+							height: 20px;
+							font-size: 16pt;
+							padding: 5px 0px 40px 0px;
+							margin-top: 70px;
+							text-decoration: none;
+							color: white;
+						}
+
+		.e{
+				background-image: url('potstickers.jpg');
+				background-size: cover;
+				background-repeat: no-repeat;
+				width:200px;
+				height: 200px;
+				margin-left: 190px;
+				margin-top:20px;
+				text-align: center;
+				float:left;
+				color:white;
+						}
+
+
+						.e a{
+							visibility: hidden;
+						}
+								.e:hover{
+									opacity: .7;
+
+								}
+								.e:hover a{
+									visibility: visible;
+									display: inline-block;
+									background-color: darkgrey;
+									width:200px;
+									height: 20px;
+									font-size: 16pt;
+									padding: 5px 0px 10px 0px;
+									margin-top: 90px;
+									text-decoration: none;
+									color: white;
+								}
+
+		.f{
+			background-image: url('falafel.jpg');
+			background-size: cover;
+			background-repeat: no-repeat;
+			width:200px;
+			height: 200px;
+			margin-left: 190px;
+			margin-top:20px;
+			text-align: center;
+			float:left;
+			color:white;
+		}
+
+		.f a{
+			visibility: hidden;
+		}
+				.f:hover{
+					opacity: .7;
+
+				}
+				.f:hover a{
+					visibility: visible;
+					display: inline-block;
+					background-color: darkgrey;
+					width:200px;
+					height: 20px;
+					font-size: 16pt;
+					padding: 5px 0px 10px 0px;
+					margin-top: 90px;
+					text-decoration: none;
+					color: white;
+				}
+
+		#myInput {
+		    background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+		    background-position: 10px 12px; /* Position the search icon */
+		    background-repeat: no-repeat; /* Do not repeat the icon image */
+		    width: 100%; /* Full-width */
+		    font-size: 16px; /* Increase font-size */
+		    padding: 12px 20px 12px 40px; /* Add some padding */
+		    border: 1px solid #ddd; /* Add a grey border */
+		    margin-bottom: 12px; /* Add some space below the input */
+		}
+
+		#myRecipes {
+		    /* Remove default list styling */
+		    list-style-type: none;
+		    padding: 0;
+		    margin: 0;
+		}
+
+		</style>
+		<h1>Recipes</h1>
+<br>
+	<nav>
+<ul>
+	<li><a href="prototype1.html">  Home &nbsp; </a></li>
+	<li> <a href="reci.html"> Recipes  &nbsp; </a></li>
+	<li> <a href="ing.html">  Ingredients &nbsp; </a></li>
+	<li> <a href="subst.html"> Blog &nbsp;  </a></li>
+</ul>
+</nav>
+
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
+<section id="myRecipes">
+
+<div class="a">
+<a href=""> Polish Roulade </a>
+</div>
+
+<div class="b">
+<a href=""> Mexican BBQ Carnitas Tacos</a>
+</div >
+
+<div class="c">
+<a href=""> Italian Ravioli alla Caprese</a>
+</div>
+
+<div class="d">
+<a href=""> Indian Butter Chicken</a>
+</div >
+<div class="e">
+<a href=""> Chinese Potstickers</a>
+</div>
+<div class="f">
+<a href="">Mediterranean Falafel</a>
+</div>
+
+<script>
+function myFunction() {
+// Declare variables
+var input, filter, section, div, a, i;
+input = document.getElementById('myInput');
+filter = input.value.toUpperCase();
+section = document.getElementById("myRecipes");
+div = section.getElementsByTagName('div');
+
+// Loop through all list items, and hide those who don't match the search query
+for (i = 0; i < div.length; i++) {
+		a = div[i].getElementsByTagName('a')[0];
+		if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+				div[i].style.display = "";
+		} else {
+				div[i].style.display = "none";
+		}
+}
+}
+</script>
+</section>
+	</body>
+</html>
