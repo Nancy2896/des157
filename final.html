@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Prototype 1</title>
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		  <link rel="stylesheet" href="styles.css">
+
+		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+
+	</head>
+
+	<body>
+		<a href="prototype1.html"> <h1>foodie</h1></a>
+<br>
+	<nav>
+<ul>
+	<li><a href="prototype1.html">  Home &nbsp; </a></li>
+	<li> <a href="reci1.html"> Recipes  &nbsp; </a></li>
+	<li> <a href ="ing.html">Ingredients &nbsp;</a></li>
+	<li> <a href="blog.html"> Blog &nbsp;  </a></li>
+</ul>
+</nav>
+
+<div>
+	<!--
+<img class="mySlides" src="hu.jpg" width="100%" height="400">
+<img class="mySlides" src="ju.jpg" width="100%" height="400">
+<img class="mySlides" src="io.jpg" width="100%" height="400">
+-->
+
+<div class="w3-content w3-section">
+  <img class="mySlides" src="hu.jpg" height="400">
+  <img class="mySlides" src="ju.jpg"  height="400">
+  <img class="mySlides" src="io.jpg"  height="400">
+	<img class="mySlides" src="din.jpg"  height="400">
+	<img class="mySlides" src="cook.jpg"  height="400">
+	<img class="mySlides" src="berries.jpg"  height="400">
+	<img class="mySlides" src="pasta.jpg"  height="400">
+	<img class="mySlides" src="mac.jpg"  height="400">
+	<img class="mySlides" src="dish.png"  height="400">
+	<img class="mySlides" src="indi.jpg"  height="400">
+</div>
+
+
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+
+</script>
+</div>
+
+<footer id="footer">
+<a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fnancy2896.github.io%2Fdes157%2Fprototype1.html"> HTML  </a>
+<a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fnancy2896.github.io%2Fdes157%2Fprototype1.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en"> CSS </a>
+</footer>
+
+
+
+
+	</body>
+</html>

@@ -1,11 +1,11 @@
+
 <!DOCTYPE html>
 
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
 		<title>Interactive Wireframe</title>
-
-
+		<link rel="stylesheet" href="styles.css">
 
 	</head>
 
@@ -13,59 +13,9 @@
 
 		<style>
 		@import url('https://fonts.googleapis.com/css?family=Raleway');
-		body {
-			margin: auto;
-			font-family: 'Raleway';
-			color: #000000;
-		text-align: center;
-			}
-
-		h1{
-			text-align: center;
-			font-family: 'Raleway';
-			font-variant: small-caps;
-			color: black;
-			font-size: 35pt;
-			padding: 10px;
+		@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
 
 
-		}
-
-			nav{
-
-				background-color: #C0C0C0;
-
-				height: 100%;
-		margin-top: -50px;
-			}
-
-			nav li {
-				display: inline-block;
-				font-size: 24pt;
-				margin-left:20px;
-				margin-top: 10px;
-
-		font-family: 'Raleway';
-
-
-			}
-
-			nav a{
-
-				text-decoration: none;
-					text-align: center !important;
-					color:white;
-			padding-top: 20px;
-			}
-
-
-		nav a:hover{
-			color: white;
-			text-align: center;
-			background-color: orange;
-			padding: 11px;
-
-		}
 
 		.a{
 				background-image: url('roulade.jpg');
@@ -79,24 +29,31 @@
 				color:white;
 				}
 
-		.a a{
+		.a a {
+			visibility: visible;
+			display: inline-block;
+			background-color: darkgrey;
+			width:200px;
+			font-size: 16pt;
+			padding: 5px 0px 10px 0px;
+			text-decoration: none;
+			color: white;
+
+		}
+
+		.a p{
 			visibility: hidden;
 		}
-				.a:hover{
-					opacity: .7;
 
-				}
-				.a:hover a{
+				.a:hover p{
 					visibility: visible;
-					display: inline-block;
-					background-color: darkgrey;
+					background-color: white;
 					width:200px;
-					height: 20px;
-					font-size: 16pt;
-					padding: 5px 0px 10px 0px;
-					margin-top: 90px;
+					font-size: 10pt;
+					margin-top: 100px;
+					padding: 5px 0px 12px 0px;
 					text-decoration: none;
-					color: white;
+					color: black;
 				}
 
 
@@ -113,24 +70,31 @@
 				}
 
 
-				.b a{
+				.b a {
+					visibility: visible;
+					display: inline-block;
+					background-color: darkgrey;
+					width:200px;
+					font-size: 16pt;
+					padding: 5px 0px 10px 0px;
+					text-decoration: none;
+					color: white;
+
+				}
+
+				.b p{
 					visibility: hidden;
 				}
-						.b:hover{
-							opacity: .7;
 
-						}
-						.b:hover a{
+						.b:hover p{
 							visibility: visible;
-							display: inline-block;
-							background-color: darkgrey;
+							background-color: white;
 							width:200px;
-							height: 20px;
-							font-size: 16pt;
-							padding: 5px 0px 40px 0px;
-							margin-top: 80px;
+							font-size: 10pt;
+							margin-top: 100px;
+							padding: 5px 0px 12px 0px;
 							text-decoration: none;
-							color: white;
+							color: black;
 						}
 
 		.c{
@@ -145,24 +109,30 @@
 				color:white;
 			}
 
-			.c a{
+			.c a {
+				visibility: visible;
+				display: inline-block;
+				background-color: darkgrey;
+				width:200px;
+				font-size: 16pt;
+				padding: 5px 0px 10px 0px;
+				text-decoration: none;
+				color: white;
+
+			}
+
+			.c p{
 				visibility: hidden;
 			}
-					.c:hover{
-						opacity: .7;
-
-					}
-					.c:hover a{
+					.c:hover p{
 						visibility: visible;
-						display: inline-block;
-						background-color: darkgrey;
+						background-color: white;
 						width:200px;
-						height: 20px;
-						font-size: 16pt;
-						padding: 5px 0px 40px 0px;
-						margin-top: 80px;
+						font-size: 10pt;
+						margin-top: 100px;
+						padding: 5px 0px 12px 0px;
 						text-decoration: none;
-						color: white;
+						color: black;
 					}
 
 		.d{
@@ -178,25 +148,32 @@
 				color:white;
 				}
 
+				.d a {
+					visibility: visible;
+					display: inline-block;
+					background-color: darkgrey;
+					width:200px;
+					font-size: 16pt;
+					padding: 5px 0px 10px 0px;
 
-				.d a{
+					text-decoration: none;
+					color: white;
+
+				}
+
+				.d p{
 					visibility: hidden;
 				}
-						.d:hover{
-							opacity: .7;
 
-						}
-						.d:hover a{
+						.d:hover p{
 							visibility: visible;
-							display: inline-block;
-							background-color: darkgrey;
+							background-color: white;
 							width:200px;
-							height: 20px;
-							font-size: 16pt;
-							padding: 5px 0px 40px 0px;
-							margin-top: 70px;
+							font-size: 10pt;
+							margin-top: 100px;
+							padding: 5px 0px 12px 0px;
 							text-decoration: none;
-							color: white;
+							color: black;
 						}
 
 		.e{
@@ -213,26 +190,32 @@
 						}
 
 
-						.e a{
+						.e a {
+							visibility: visible;
+							display: inline-block;
+							background-color: darkgrey;
+							width:200px;
+							font-size: 16pt;
+							padding: 5px 0px 10px 0px;
+							text-decoration: none;
+							color: white;
+
+						}
+
+						.e p{
 							visibility: hidden;
 						}
-								.e:hover{
-									opacity: .7;
 
-								}
-								.e:hover a{
+								.e:hover p{
 									visibility: visible;
-									display: inline-block;
-									background-color: darkgrey;
+									background-color: white;
 									width:200px;
-									height: 20px;
-									font-size: 16pt;
-									padding: 5px 0px 10px 0px;
-									margin-top: 90px;
+									font-size: 10pt;
+									margin-top: 100px;
+									padding: 5px 0px 12px 0px;
 									text-decoration: none;
-									color: white;
+									color: black;
 								}
-
 		.f{
 			background-image: url('falafel.jpg');
 			background-size: cover;
@@ -246,24 +229,32 @@
 			color:white;
 		}
 
-		.f a{
+		.f a {
+			visibility: visible;
+			display: inline-block;
+			background-color: darkgrey;
+			width:200px;
+			font-size: 16pt;
+			padding: 5px 0px 10px 0px;
+
+			text-decoration: none;
+			color: white;
+
+		}
+
+		.f p{
 			visibility: hidden;
 		}
-				.f:hover{
-					opacity: .7;
 
-				}
-				.f:hover a{
+				.f:hover p{
 					visibility: visible;
-					display: inline-block;
-					background-color: darkgrey;
+					background-color: white;
 					width:200px;
-					height: 20px;
-					font-size: 16pt;
-					padding: 5px 0px 40px 0px;
-					margin-top: 80px;
+					font-size: 10pt;
+					margin-top: 100px;
+					padding: 5px 0px 12px 0px;
 					text-decoration: none;
-					color: white;
+					color: black;
 				}
 
 		#myInput {
@@ -285,22 +276,23 @@
 		}
 
 		</style>
-		<h1>Recipes</h1>
+		<a href="prototype1.html"> <h1>foodie</h1></a>
 <br>
 	<nav>
 <ul>
 	<li><a href="prototype1.html">  Home &nbsp; </a></li>
-	<li> <a href="reci.html"> Recipes  &nbsp; </a></li>
-	<li> <a href="ing.html">  Ingredients &nbsp; </a></li>
-	<li> <a href="subst.html"> Blog &nbsp;  </a></li>
+	<li> <a href="reci1.html"> Recipes  &nbsp; </a></li>
+	<li> <a href ="ing.html">Ingredients &nbsp;</a></li>
+	<li> <a href="blog.html"> Blog &nbsp;  </a></li>
 </ul>
 </nav>
 
-<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for recipes..">
 <section id="myRecipes">
 
 <div class="a">
-<a href=""> Polish Roulade </a>
+<a href="roulade.html"> Polish Roulade </a>
+<p>The roulade has a beautiful, spring green color. Made with spinach, cheese and cream...</p>
 </div>
 
 <div class="b">
@@ -320,27 +312,8 @@
 <div class="f">
 <a href="">Mediterranean Falafel</a>
 </div>
+<script  src="search.js"></script>
 
-<script>
-function myFunction() {
-// Declare variables
-var input, filter, section, div, a, i;
-input = document.getElementById('myInput');
-filter = input.value.toUpperCase();
-section = document.getElementById("myRecipes");
-div = section.getElementsByTagName('div');
-
-// Loop through all list items, and hide those who don't match the search query
-for (i = 0; i < div.length; i++) {
-		a = div[i].getElementsByTagName('a')[0];
-		if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
-				div[i].style.display = "";
-		} else {
-				div[i].style.display = "none";
-		}
-}
-}
-</script>
 </section>
 	</body>
 </html>
