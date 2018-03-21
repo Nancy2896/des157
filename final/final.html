@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>foodie</title>
+		  <link rel="stylesheet" href="w3.css">
+		  <link rel="stylesheet" href="styles.css">
+
+		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+
+	</head>
+
+	<body>
+		<a href="final.html"> <h1>foodie</h1></a> 
+<br>
+	<nav>
+<ul>
+	<li><a href="final.html">  Home &nbsp; </a></li>
+	<li> <a href="reci1.html"> Recipes  &nbsp; </a></li>
+	<li> <a href ="ing.html">Ingredients &nbsp;</a></li>
+	<li> <a href="blog.html"> Blog &nbsp;  </a></li>
+</ul>
+</nav>
+
+<div>
+	<!--
+<img class="mySlides" src="hu.jpg" width="100%" height="400">
+<img class="mySlides" src="ju.jpg" width="100%" height="400">
+<img class="mySlides" src="io.jpg" width="100%" height="400">
+-->
+
+<div class="w3-content w3-section">
+  <a href="blog.html#cake"> <img class="mySlides" src="hu.jpg" height="400" alt="a"></a>
+  <a href="blog.html#Falafel"><img class="mySlides" src="ju.jpg"  height="400" alt="b"></a>
+  <a href="blog.html#cakebar"><img class="mySlides" src="io.jpg"  height="400" alt="c"></a>
+	<a href="blog.html#two"><img class="mySlides" src="din.jpg"  height="400" alt="d"></a>
+		<a href="blog.html#mushroom"><img class="mySlides" src="cook.jpg"  height="400" alt="e"></a>
+	<img class="mySlides" src="berries.jpg" height="400" alt="f">
+	<a href="blog.html#pasta"><img class="mySlides" src="pasta.jpg"  height="400" alt="g"></a>
+	<a href="blog.html#one"><img class="mySlides" src="mac.jpg"  height="400" alt="h"></a>
+	<img class="mySlides" src="dish.png"  height="400" alt="i">
+	<img class="mySlides" src="indi.jpg"  height="400" alt="j">
+</div>
+
+
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+
+</script>
+</div>
+
+<footer id="footer">
+<a href="https://validator.w3.org/check?url=referer"> HTML  </a>
+<a href="https://jigsaw.w3.org/css-validator/check/referer"> CSS </a>
+</footer>
+
+
+
+
+	</body>
+</html>
